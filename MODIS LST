@@ -1,0 +1,5 @@
+##You can download the list of URLs of MODIS data in text file from Earth Data website. 
+##Then you can download multiple files using wget in windows system. 
+##Make sure that wget.exe file is copied at ‘C:\\Windows\System32’.
+import os
+os.system('wget --user "type_username" --password "type_password" -i 6815354943-download.txt')
